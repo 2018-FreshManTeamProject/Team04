@@ -28,6 +28,9 @@ namespace Team04
             graphicsDeviceManager = new GraphicsDeviceManager(this);
             //コンテンツデータ（リソースデータ）のルートフォルダは"Contentに設定
             Content.RootDirectory = "Content";
+
+            graphicsDeviceManager.PreferredBackBufferWidth = 1000;
+            graphicsDeviceManager.PreferredBackBufferHeight = 800;
         }
 
         /// <summary>
