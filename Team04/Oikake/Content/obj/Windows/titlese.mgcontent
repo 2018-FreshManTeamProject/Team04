@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/titlese.wav</SourceFile>
+  <SourceTime>2010-09-10T17:56:00+09:00</SourceTime>
+  <DestFile>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/bin/Windows/titlese.xnb</DestFile>
+  <DestTime>2018-05-29T13:19:10.5621337+09:00</DestTime>
+  <Importer>WavImporter</Importer>
+  <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
+  <Processor>SoundEffectProcessor</Processor>
+  <ProcessorTime>2017-03-02T00:05:36+09:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput />
+</PipelineBuildEvent>

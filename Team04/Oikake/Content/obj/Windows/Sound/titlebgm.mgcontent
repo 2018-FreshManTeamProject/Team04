@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/Sound/titlebgm.mp3</SourceFile>
+  <SourceTime>2008-10-06T14:42:36+09:00</SourceTime>
+  <DestFile>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/bin/Windows/Sound/titlebgm.xnb</DestFile>
+  <DestTime>2018-06-22T15:23:48.6248563+09:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2017-03-02T00:05:36+09:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/bin/Windows/Sound/titlebgm.wma</string>
+  </BuildOutput>
+</PipelineBuildEvent>
