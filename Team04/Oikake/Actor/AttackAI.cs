@@ -26,6 +26,8 @@ namespace Oikake.Actor
             Velocity.Normalize();
 
             position += Velocity * 5;
+
+            return position;
         }
     }
 }
