@@ -128,6 +128,7 @@ namespace Oikake
             Color[] colors = new Color[1 * 1];
             colors[0] = new Color(0, 0, 0);
             fade.SetData(colors);
+
             renderer.LoadContent("fade", fade);
 
             Sound sound = gameDevice.GetSound();

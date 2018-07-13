@@ -121,7 +121,7 @@ namespace Oikake.Actor
             foreach(var newChara in addNewChsrscters)
             {
                 //キャラがプレイヤーだったらプレイやリストに登録
-                if(newChara is Player)
+                if(!(newChara is Enemy))
                 {
                     newChara.Initialize();
                     players.Add(newChara);
@@ -150,14 +150,15 @@ namespace Oikake.Actor
         public void Draw(Renderer renderer)
         {
             //全キャラ描画
-            foreach(var e in enemys)
-            {
-                e.Draw(renderer);
-            }
-            foreach(var p in players)
+            foreach (var p in players)
             {
                 p.Draw(renderer);
             }
+            foreach (var e in enemys)
+            {
+                e.Draw(renderer);
+            }
+           
         }
     }
 }

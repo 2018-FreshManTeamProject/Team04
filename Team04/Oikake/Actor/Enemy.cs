@@ -16,11 +16,11 @@ namespace Oikake.Actor
     class Enemy : Character
     {
         private Random rnd;
-        private AI ai;
-        public Enemy(IGameMediator mediator,AI ai)
+        
+        public Enemy(IGameMediator mediator)
             :base("black",mediator)
         {
-            this.ai = ai;
+           
         }
         public override void Initialize()
         {
@@ -28,14 +28,14 @@ namespace Oikake.Actor
             var gameDevice = GameDevice.Instance();
             rnd = gameDevice.GetRandom();
             position = new Vector2(
-                rnd.Next(Screen.Width - 64),
-                rnd.Next(Screen.Height - 64));
+                rnd.Next(Screen.Width - 64), -32);
         }
 
         public override void Update(GameTime gameTime)
         {
+            position.Y += 5;
             //AIが考えて決定した位置に
-            position = ai.Think(this);
+           
         }
            
        
@@ -48,20 +48,18 @@ namespace Oikake.Actor
         public override void Hit(Character other)
         {
             //得点処理
-            int score = 0;
-            if(ai is BoundAI)
-            {
-                score = 100;
-            }
-            mediator.AddScore(score);
+            //int score = 0;
+            
+          
+            //mediator.AddScore(score);
 
             //次のAIを決定
-            AI nextAI = new BoundAI();//実体生成
-            mediator.AddActor(new Enemy(mediator, nextAI));
+            
+            mediator.AddActor(new Enemy(mediator));
 
             //死亡処理
             isDeadFlag = true;
-            mediator.AddActor(new BurstEffect(position, mediator));
+            
         }
     }
 }

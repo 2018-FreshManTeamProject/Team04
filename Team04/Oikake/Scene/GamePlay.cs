@@ -57,27 +57,24 @@ namespace Oikake.Scene
             characterManager = new CharacterManager();
 
             //キャラクターマネージャの実態生成
-         //   characterManager = new CharacterManager();
-
+            //   characterManager = new CharacterManager();
+            characterManager.Add(new Bag(this));
             //----プレイヤー追加処理----
             //キャラクターマネージャにプレイヤー追加
-            characterManager.Add(new Player(this));
+            for (int i = 0; i< 3; ++i)
+            {
+                characterManager.Add(new Player(this, i));
+            }
+
 
             //----エネミー追加処理----
             //動かない敵を追加
-            characterManager.Add(new Enemy(this,new BoundAI()));
 
-            //横バウンドの敵を追加
-            characterManager.Add(new BoundEnemy(this));
-
-            //ランダム移動の敵10体登録
-            for(int i = 0; i < 10; i++)
-            {
-                characterManager.Add(new RandomEnemy(this));
-            }
-
+            characterManager.Add(new Enemy(this));
+            characterManager.Add(new Floor(this));
+           
             //時間関連
-            timer = new CountDownTimer(5);
+            timer = new CountDownTimer(50);
 
             timerUI = new TimerUI(timer);
 
@@ -168,6 +165,11 @@ namespace Oikake.Scene
         public void AddScore(int num)
         {
             score.Add(num);
+        }
+
+        public int GetScore()
+        {
+            return score.GetScore();
         }
     }
 }

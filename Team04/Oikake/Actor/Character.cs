@@ -64,7 +64,7 @@ namespace Oikake.Actor
         ///</summary>
         ///<parem name="other"></parem>
         ///<returns></returns>
-        public  bool IsCollision(Character other)
+        public virtual bool IsCollision(Character other)
         {
             //自分と相手の位置の長さを計算（2点間の距離）
             float length = (position - other.position).Length();
@@ -84,6 +84,9 @@ namespace Oikake.Actor
             other = position;
         }
 
-       
+        public Vector2 GetPosition()
+        {
+            return position;
+        }
     }
 }

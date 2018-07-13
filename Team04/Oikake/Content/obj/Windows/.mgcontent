@@ -4,29 +4,29 @@
   <Platform>Windows</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/score.bmp</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/stage.BMP</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/timer.bmp</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/title.BMP</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/titlebgm.mp3</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/titlese.wav</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/white.BMP</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/black.BMP</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/ending.BMP</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/endingbgm.mp3</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/endingse.wav</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/gameplaybgm.mp3</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/gameplayse.wav</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/number.bmp</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/pipo-btleffect.png</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/Sound/endingbgm.mp3</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/Sound/endingse.wav</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/Sound/gameplaybgm.mp3</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/Sound/gameplayse.wav</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/Sound/titlebgm.mp3</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/Sound/titlese.wav</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/oikake_enemy_4anime.bmp</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/oikake_player_4anime.bmp</File>
-    <File>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/puddle.png</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/score.bmp</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/stage.BMP</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/timer.bmp</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/title.BMP</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/titlebgm.mp3</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/titlese.wav</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/white.BMP</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/black.BMP</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/ending.BMP</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/endingbgm.mp3</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/endingse.wav</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/gameplaybgm.mp3</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/gameplayse.wav</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/number.bmp</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/pipo-btleffect.png</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/Sound/endingbgm.mp3</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/Sound/endingse.wav</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/Sound/gameplaybgm.mp3</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/Sound/gameplayse.wav</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/Sound/titlebgm.mp3</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/Sound/titlese.wav</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/oikake_enemy_4anime.bmp</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/oikake_player_4anime.bmp</File>
+    <File>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/puddle.png</File>
   </SourceFiles>
 </SourceFileCollection>
