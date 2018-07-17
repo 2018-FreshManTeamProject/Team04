@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/Sound/gameplayse.wav</SourceFile>
-  <SourceTime>2011-02-24T15:50:16+09:00</SourceTime>
-  <DestFile>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/bin/Windows/Sound/gameplayse.xnb</DestFile>
-  <DestTime>2018-06-22T15:23:46.064184+09:00</DestTime>
+  <SourceFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/Sound/gameplayse.wav</SourceFile>
+  <SourceTime>2018-07-12T18:35:10.1030996+09:00</SourceTime>
+  <DestFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/bin/Windows/Sound/gameplayse.xnb</DestFile>
+  <DestTime>2018-07-17T16:17:51.6952804+09:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

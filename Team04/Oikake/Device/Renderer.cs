@@ -126,6 +126,22 @@ namespace Oikake.Device
             spriteBatch.Draw(textures[assetName], position, Color.White * alpha);
         }
 
+        /// <summary>
+        /// 画像の描画（画像サイズはそのまま）
+        /// </summary>
+        /// <param name="assetName">アセット名</param>
+        /// <param name="position">位置</param>
+        /// <param name="alpha">透明値（1.0f：不透明 0.0f：透明）</param>
+        public void DrawTexture(string assetName, Vector2 position, float scale, float alpha = 1.0f)
+        {
+            //デバッグモードの時のみ、画像描画前のアセット名チェック
+            Debug.Assert(
+                textures.ContainsKey(assetName),
+                "描画時にアセット名の指定を間違えたか、画像の読み込み自体できていません");
+
+            spriteBatch.Draw(textures[assetName], position, null, Color.White * alpha, 0, new Vector2(textures[assetName].Width/2, textures[assetName].Height/2), scale, SpriteEffects.None, 0);
+        }
+
 
         /// <summary>
         /// 画像の描画（画像を指定範囲内だけ描画）

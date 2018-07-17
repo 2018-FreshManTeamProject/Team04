@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/oikake_enemy_4anime.bmp</SourceFile>
-  <SourceTime>2016-07-16T19:42:32+09:00</SourceTime>
-  <DestFile>C:/Users/K018A1483/Desktop/oikake/trunk/Oikake/Oikake/Content/bin/Windows/oikake_enemy_4anime.xnb</DestFile>
-  <DestTime>2018-06-29T13:36:40.9019606+09:00</DestTime>
+  <SourceFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/oikake_enemy_4anime.bmp</SourceFile>
+  <SourceTime>2018-07-12T18:35:11.0984387+09:00</SourceTime>
+  <DestFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/bin/Windows/oikake_enemy_4anime.xnb</DestFile>
+  <DestTime>2018-07-17T16:17:54.190664+09:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

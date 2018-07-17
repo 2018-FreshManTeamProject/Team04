@@ -13,5 +13,7 @@ namespace Oikake.Scene
         void AddActor(Character character);
         void AddScore();
         void AddScore(int num);
+
+        int GetScore();
     }
 }

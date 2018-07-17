@@ -41,16 +41,11 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Actor\AI.cs" />
-    <Compile Include="Actor\AttackAI.cs" />
-    <Compile Include="Actor\BoundAI.cs" />
-    <Compile Include="Actor\BoundEnemy.cs" />
-    <Compile Include="Actor\BurstEffect.cs" />
+    <Compile Include="Actor\Bag.cs" />
     <Compile Include="Actor\Character.cs" />
     <Compile Include="Actor\CharacterManager.cs" />
     <Compile Include="Actor\Enemy.cs" />
-    <Compile Include="Actor\RandomAI.cs" />
-    <Compile Include="Actor\RandomEnemy.cs" />
+    <Compile Include="Actor\Floor.cs" />
     <Compile Include="Def\screen.cs" />
     <Compile Include="Device\GameDevice.cs" />
     <Compile Include="Device\Input.cs" />

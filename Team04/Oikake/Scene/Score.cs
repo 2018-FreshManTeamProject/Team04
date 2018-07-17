@@ -13,7 +13,10 @@ namespace Oikake.Scene
     {
         private int poolScore;
         private int score;
-
+        public int GetScore()
+        {
+            return score;
+        }
         public void Initialize()
         {
             poolScore = 0;
