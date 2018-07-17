@@ -29,7 +29,7 @@ namespace Oikake.Actor
                 rnd.Next(Screen.Width - 64),
                 rnd.Next(Screen.Height - 64));
             //最初は左移動
-            velocity = new Vector2(-10f, 0);
+            velocity = new Vector2(0, 10f);
         }
         public override void Shutdown()
         {

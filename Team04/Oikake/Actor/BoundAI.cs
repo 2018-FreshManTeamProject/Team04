@@ -19,7 +19,7 @@ namespace Oikake.Actor
             var gameDevice = GameDevice.Instance();
             var rnd = gameDevice.GetRandom();
             int speed = rnd.Next(5, 21);
-            speed = (rnd.Next(2) == 0) ? (speed) : (-speed);
+            //speed = (rnd.Next(2) == 0) ? (speed) : (-speed);
             velocity = new Vector2(speed, 0.0f);
         }
 
@@ -29,10 +29,10 @@ namespace Oikake.Actor
             character.SetPosition(ref position);
 
             position = position + velocity;
-            Range range = new Range(0, Screen.Width - 64);
-            if(range.IsOutOfRange((int)position.X))
+            Range range = new Range(0, Screen.Height - 64);
+            if(range.IsOutOfRange((int)position.Y))
             {
-                velocity = -velocity;
+                //velocity = -velocity;
             }
             return position;
         }
