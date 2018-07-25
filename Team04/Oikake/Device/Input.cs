@@ -20,6 +20,9 @@ namespace Oikake.Device
         private static MouseState currentMouse;
         private static MouseState previousMouse;
 
+        //ゲームパッド
+        private static GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
+
         public static void Update()
         {
             //キーボード
@@ -28,7 +31,9 @@ namespace Oikake.Device
             //マウス
             previousMouse = currentMouse;
             currentMouse = Mouse.GetState();
-
+            //ゲームパッドの状態を取得
+            gamePadState = GamePad.GetState(PlayerIndex.One);
+            
 
 
             //更新
@@ -48,22 +53,26 @@ namespace Oikake.Device
             velocity = Vector2.Zero;
 
             //右
-            if (CurrentKey.IsKeyDown(Keys.Right))
+            //if (CurrentKey.IsKeyDown(Keys.Right))
+            if(gamePadState.DPad.Right == ButtonState.Pressed)
             {
                 velocity.X += 1.0f;
             }
             //左
-            if (CurrentKey.IsKeyDown(Keys.Left))
+            //if (CurrentKey.IsKeyDown(Keys.Left))
+            if (gamePadState.DPad.Left == ButtonState.Pressed)
             {
                 velocity.X -= 1.0f;
             }
             //上
-            if (CurrentKey.IsKeyDown(Keys.Up))
+            //if (CurrentKey.IsKeyDown(Keys.Up))
+            if (gamePadState.DPad.Up == ButtonState.Pressed)
             {
                 velocity.Y -= 1.0f;
             }
             //下
-            if (CurrentKey.IsKeyDown(Keys.Down))
+            //if (CurrentKey.IsKeyDown(Keys.Down))
+            if (gamePadState.DPad.Down == ButtonState.Pressed)
             {
                 velocity.Y += 1.0f;
             }

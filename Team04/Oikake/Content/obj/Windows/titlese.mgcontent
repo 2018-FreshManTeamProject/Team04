@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/titlese.wav</SourceFile>
-  <SourceTime>2018-07-12T18:20:36.0498902+09:00</SourceTime>
-  <DestFile>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/bin/Windows/titlese.xnb</DestFile>
-  <DestTime>2018-07-13T17:09:42.0768037+09:00</DestTime>
+  <SourceFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/titlese.wav</SourceFile>
+  <SourceTime>2018-07-12T18:35:11.2101446+09:00</SourceTime>
+  <DestFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/bin/Windows/titlese.xnb</DestFile>
+  <DestTime>2018-07-17T16:23:01.9598207+09:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/score.bmp</SourceFile>
-  <SourceTime>2018-07-12T18:20:35.9927479+09:00</SourceTime>
-  <DestFile>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/bin/Windows/score.xnb</DestFile>
-  <DestTime>2018-07-13T17:09:40.0527722+09:00</DestTime>
+  <SourceFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/score.bmp</SourceFile>
+  <SourceTime>2018-07-12T18:35:11.119383+09:00</SourceTime>
+  <DestFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/bin/Windows/score.xnb</DestFile>
+  <DestTime>2018-07-17T16:22:58.6518308+09:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

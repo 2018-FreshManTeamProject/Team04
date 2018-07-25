@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/Sound/titlebgm.mp3</SourceFile>
-  <SourceTime>2018-07-12T18:20:35.579649+09:00</SourceTime>
-  <DestFile>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/bin/Windows/Sound/titlebgm.xnb</DestFile>
-  <DestTime>2018-07-13T17:09:49.2059479+09:00</DestTime>
+  <SourceFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/Sound/titlebgm.mp3</SourceFile>
+  <SourceTime>2018-07-12T18:35:10.1529657+09:00</SourceTime>
+  <DestFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/bin/Windows/Sound/titlebgm.xnb</DestFile>
+  <DestTime>2018-07-17T16:23:11.8515599+09:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
   <Processor>SongProcessor</Processor>
@@ -15,6 +15,6 @@
   <Dependencies />
   <BuildAsset />
   <BuildOutput>
-    <string>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/bin/Windows/Sound/titlebgm.wma</string>
+    <string>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/bin/Windows/Sound/titlebgm.wma</string>
   </BuildOutput>
 </PipelineBuildEvent>

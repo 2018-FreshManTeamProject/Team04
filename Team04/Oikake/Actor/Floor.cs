@@ -16,13 +16,13 @@ namespace Oikake.Actor
         {
           if(other is Enemy)
             {
-                mediator.AddScore(100);
+                mediator.AddScore(10);
             }
         }
 
         public override void Initialize()
         {
-            position = new Vector2(0, 580);
+            position = new Vector2(0, 600);
         }
 
         public override void Shutdown()

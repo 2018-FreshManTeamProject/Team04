@@ -123,7 +123,8 @@ namespace Oikake.Device
                 textures.ContainsKey(assetName),
                 "描画時にアセット名の指定を間違えたか、画像の読み込み自体できていません");
 
-            spriteBatch.Draw(textures[assetName], position, Color.White * alpha);
+            //
+          spriteBatch.Draw(textures[assetName], position, Color.White * alpha);
         }
 
         /// <summary>

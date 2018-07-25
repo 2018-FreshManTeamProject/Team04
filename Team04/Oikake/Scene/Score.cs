@@ -13,6 +13,10 @@ namespace Oikake.Scene
     {
         private int poolScore;
         private int score;
+        private Vector2 scale = Vector2.One;
+        private float Z;
+        private float D;
+        
         public int GetScore()
         {
             return score;
@@ -34,17 +38,33 @@ namespace Oikake.Scene
 
         public void Update(GameTime gameTime)
         {
-            if(poolScore>0)
+
+            if (poolScore > 0)
             {
                 score = score + 1;
-                poolScore =  poolScore - 1;
+                poolScore = poolScore - 1;
+
+                Z = Z - 0.01f;
+                D = D + 0.1f;
             }
+
+           
+
+            //if(score = score+)
+            //{
+            //    scale.X = ("black").Left.X + 1.0f;
+            //    scale.Y = ("black").Left.Y + 1.0f;
+            //}
         }
 
         public void Draw(Renderer renderer)
         {
             renderer.DrawTexture("score", new Vector2(50, 10));
             renderer.DrawNumber("number",new Vector2(250, 13),score);
+ 
+            renderer.DrawTexture("white", new Vector2(700 + D, 500 + D), new Rectangle(0, 0, 64, 64), 0, new Vector2(0, 0), new Vector2(Z,Z));
+
+
         }
         public void Shutdown()
         {
@@ -52,5 +72,6 @@ namespace Oikake.Scene
             poolScore = 0;
         }
            
+        
     }
 }

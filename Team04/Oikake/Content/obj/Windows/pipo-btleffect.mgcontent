@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <SourceFile>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/pipo-btleffect.png</SourceFile>
-  <SourceTime>2018-07-12T18:20:35.9877009+09:00</SourceTime>
-  <DestFile>C:/Users/K018A2120/Desktop/電算/Team04/Oikake/Content/bin/Windows/pipo-btleffect.xnb</DestFile>
-  <DestTime>2018-07-13T17:09:44.8941341+09:00</DestTime>
+  <SourceFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/pipo-btleffect.png</SourceFile>
+  <SourceTime>2018-07-12T18:35:11.108414+09:00</SourceTime>
+  <DestFile>C:/Users/K018A1483/Desktop/フレッシュマンシップ/Team04/Oikake/Content/bin/Windows/pipo-btleffect.xnb</DestFile>
+  <DestTime>2018-07-17T16:23:05.8492325+09:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2017-03-02T00:05:36+09:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

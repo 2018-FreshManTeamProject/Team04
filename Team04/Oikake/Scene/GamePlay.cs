@@ -58,7 +58,7 @@ namespace Oikake.Scene
 
             //キャラクターマネージャの実態生成
             //   characterManager = new CharacterManager();
-            characterManager.Add(new Bag(this));
+            //characterManager.Add(new Bag(this));
             //----プレイヤー追加処理----
             //キャラクターマネージャにプレイヤー追加
             for (int i = 0; i< 3; ++i)
