@@ -62,7 +62,7 @@ namespace Oikake.Scene
             renderer.DrawTexture("score", new Vector2(50, 10));
             renderer.DrawNumber("number",new Vector2(250, 13),score);
  
-            renderer.DrawTexture("white", new Vector2(700 + D, 500 + D), new Rectangle(0, 0, 64, 64), 0, new Vector2(0, 0), new Vector2(Z,Z));
+            renderer.DrawTexture("dekita3", new Vector2(700 + D, 500 + D), new Rectangle(0, 0, 100, 100), 0, new Vector2(0, 0), new Vector2(Z,Z));
 
 
         }

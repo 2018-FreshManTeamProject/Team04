@@ -163,3 +163,8 @@ C:\Users\K018A1483\Desktop\フレッシュマンシップ\Team04\Oikake\obj\x86\
 C:\Users\K018A1483\Desktop\フレッシュマンシップ\Team04\Oikake\obj\x86\Debug\Oikake.csproj.CopyComplete
 C:\Users\K018A1483\Desktop\フレッシュマンシップ\Team04\Oikake\obj\x86\Debug\Oikake.exe
 C:\Users\K018A1483\Desktop\フレッシュマンシップ\Team04\Oikake\obj\x86\Debug\Oikake.pdb
+C:\Users\K018A1483\Desktop\フレッシュマンシップ\Team04\Oikake\bin\Windows\x86\Debug\Content\ame.xnb
+C:\Users\K018A1483\Desktop\フレッシュマンシップ\Team04\Oikake\bin\Windows\x86\Debug\Content\dekita.xnb
+C:\Users\K018A1483\Desktop\フレッシュマンシップ\Team04\Oikake\bin\Windows\x86\Debug\Content\taitoru.xnb
+C:\Users\K018A1483\Desktop\フレッシュマンシップ\Team04\Oikake\bin\Windows\x86\Debug\Content\dekita2.xnb
+C:\Users\K018A1483\Desktop\フレッシュマンシップ\Team04\Oikake\bin\Windows\x86\Debug\Content\dekita3.xnb

@@ -15,6 +15,11 @@ namespace Oikake.Scene
         private bool isEndFlag;
         private Sound sound;
         private Motion motion;
+        //ゲームパッド
+       
+
+        //ゲームパッド
+        public static GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
 
         public Title()
         {
@@ -25,7 +30,7 @@ namespace Oikake.Scene
         public void Draw(Renderer renderer)
         {
             renderer.Begin();
-            renderer.DrawTexture("title", Vector2.Zero);
+            renderer.DrawTexture("taitoru", Vector2.Zero);
             renderer.DrawTexture("puddle", new Vector2(200, 370), motion.DrawingRange());
             renderer.End();
         }
@@ -62,10 +67,12 @@ namespace Oikake.Scene
 
         public void Update(GameTime gameTime)
         {
+            gamePadState = GamePad.GetState(PlayerIndex.One);
             sound.PlayBGM("titlebgm");
             motion.Update(gameTime);
             //スペースキーが押されたか？
-            if(Input.GetkeyTrigger(Keys.Space))
+            if(Input.GetkeyTrigger(Keys.Space)|| (gamePadState.Buttons.Start == ButtonState.Pressed))
+            
             {
                 isEndFlag = true;
                 sound.PlaySE("titlese");

@@ -19,9 +19,11 @@ namespace Oikake.Device
         //マウス
         private static MouseState currentMouse;
         private static MouseState previousMouse;
+        //ゲームパッド
+       
 
         //ゲームパッド
-        private static GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
+        public  static GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
 
         public static void Update()
         {
@@ -31,8 +33,9 @@ namespace Oikake.Device
             //マウス
             previousMouse = currentMouse;
             currentMouse = Mouse.GetState();
-            //ゲームパッドの状態を取得
-            gamePadState = GamePad.GetState(PlayerIndex.One);
+            //ゲームパッド
+            // previousButton = currentButton;
+            gamePadState = GamePad.GetState(PlayerIndex.One); 
             
 
 
@@ -77,6 +80,10 @@ namespace Oikake.Device
                 velocity.Y += 1.0f;
             }
 
+            if(gamePadState.Buttons.Start == ButtonState.Pressed)
+            {
+                
+            }
             //正規化
             if (velocity.Length() != 0)
             {
@@ -142,5 +149,8 @@ namespace Oikake.Device
             return previousMouse.ScrollWheelValue -
                 currentMouse.ScrollWheelValue;
         }
+
+        
+
     }
 }

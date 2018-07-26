@@ -18,6 +18,7 @@ namespace Oikake.Scene
         private Timer timer;
         private TimerUI timerUI;
         private Score score;
+        
 
         private bool isEndFlag;
         private Sound sound;
@@ -31,6 +32,10 @@ namespace Oikake.Scene
             sound = gameDevice.GetSound();
         }
 
+        public void GetScore()
+        {
+            
+        }
         public void Draw(Renderer renderer)
         {
             //描画開始
@@ -74,7 +79,7 @@ namespace Oikake.Scene
             characterManager.Add(new Floor(this));
            
             //時間関連
-            timer = new CountDownTimer(50);
+            timer = new CountDownTimer(20);
 
             timerUI = new TimerUI(timer);
 
@@ -106,7 +111,7 @@ namespace Oikake.Scene
 
 
         }
-
+        
 
 
         public void Update(GameTime gameTime)
@@ -119,7 +124,16 @@ namespace Oikake.Scene
             characterManager.Update(gameTime);
             sound.PlayBGM("gameplaybgm");
             //時間切れか？
-            if (timer.IsTime())
+            if( score.GetScore()> 500)
+            {
+                //計算途中のスコアを全部加算
+                score.Shutdown();
+
+                //シーン終了
+                isEndFlag = true;
+                sound.PlaySE("gameplayse");
+            }
+           else if (timer.IsTime())
             {
                 //計算途中のスコアを全部加算
                 score.Shutdown();
@@ -167,10 +181,15 @@ namespace Oikake.Scene
             score.Add(num);
         }
 
-        public int GetScore()
+        int IGameMediator.GetScore()
         {
-            return score.GetScore();
+            throw new NotImplementedException();
         }
+
+        //public int GetScore()
+        //{
+        //    return score.GetScore();
+        //}
     }
 }
 

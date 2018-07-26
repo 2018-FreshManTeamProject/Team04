@@ -14,6 +14,12 @@ namespace Oikake.Scene
         private bool isEndFlag;
         IScene backGroundScene;
         private Sound sound;
+
+       
+
+
+        //ゲームパッド
+        public static GamePadState gamePadState = GamePad.GetState(PlayerIndex.One);
         public Ending(IScene scene)
         {
             isEndFlag = false;
@@ -57,8 +63,9 @@ namespace Oikake.Scene
 
         public void Update(GameTime gameTime)
         {
+            gamePadState = GamePad.GetState(PlayerIndex.One);
             sound.PlayBGM("endingbgm");
-            if (Input.GetkeyTrigger(Keys.Space))
+            if (Input.GetkeyTrigger(Keys.Space) || (gamePadState.Buttons.Start == ButtonState.Pressed))
             {
                 isEndFlag = true;
                 sound.PlaySE("endingse");

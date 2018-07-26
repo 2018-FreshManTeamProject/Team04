@@ -18,7 +18,7 @@ namespace Oikake.Actor
         private Random rnd;
         
         public Enemy(IGameMediator mediator)
-            :base("black",mediator)
+            :base("ame",mediator)
         {
            
         }

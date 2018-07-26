@@ -123,6 +123,10 @@ namespace Oikake
             renderer.LoadContent("oikake_player_4anime");
             renderer.LoadContent("oikake_enemy_4anime");
 
+            renderer.LoadContent("ame");
+            renderer.LoadContent("dekita3");
+            renderer.LoadContent("taitoru");
+
             //1ピクセル黒画像の生成
             Texture2D fade = new Texture2D(GraphicsDevice, 1, 1);
             Color[] colors = new Color[1 * 1];
